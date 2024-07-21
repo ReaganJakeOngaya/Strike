@@ -21,7 +21,7 @@ function Navbar() {
           <a class="nav-link active" aria-current="page" href="/dashboard">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Category</a>
+          <a class="nav-link active" aria-current="page" href="/about">About</a>
         </li>
       </ul>
       {/* <div class="dropdown">
@@ -39,6 +39,9 @@ function Navbar() {
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+      <div>
+
+      </div>
     </div>
   </div>
 </nav>
